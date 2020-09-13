@@ -1,0 +1,33 @@
+/* Container */
+.container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+/* Login */
+#div_login {
+  margin: 0 auto;
+}
+
+#div_login h1 {
+  margin-top: 0px;
+  font-weight: normal;
+  padding: 10px;
+  background-color: cornflowerblue;
+  color: white;
+  font-family: sans-serif;
+}
+
+#div_login div {
+  clear: both;
+}
+
+#div_login .textbox {
+  width: 96%;
+}
+
+#div_login input[type="submit"] {
+  background-color: lightseagreen;
+  border: 0px;
+  color: white;
+}
