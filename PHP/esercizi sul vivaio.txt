@@ -1,0 +1,13 @@
+Per ognuna delle seguenti richieste si scriva il programma PHP che risolva il
+problema. Se per alcune richieste i dati sono troppo pochi per fornire un 
+risultato significativo, aggiungere gli opportuni dati alle tabelle.
+Es.
+L'elenco di tutti i clienti che hanno richiesto più di un intervento
+
+Il cliente Garibaldo ha appena telefonato per lamentarsi dell'intervento fatto nel suo giardino. Dopo esservi scusati volete recuperare il nominativo o i nominativi del personale che ha seguito quell'intervento
+
+Si vuole un elenco di tutto il personale, con nome e cognome, che è 
+responsabile di almeno due specie.
+
+Si vuole l'elenco di tutti i clienti che per gli interventi richiesti abbiano utilizzato degli esemplari di piante di tipologia "grande"
+
