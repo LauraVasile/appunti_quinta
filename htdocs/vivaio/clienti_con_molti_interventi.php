@@ -61,11 +61,26 @@ foreach ($clienti as $cliente)
 // |chiave             | valore            |
 // |Giuseppe Garibaldo |  2                |
 // |Annina Forti       |  1                |
+
+/*Tutto il codice dalla riga 42 fino a qua si sarebbe potuto
+sostituire con quest'unica riga
+
+$conteggio = array_count_values($clienti);
+
+Qual è la morale? Se stiamo facendo esercizi didattici va bene provare
+ha costruire il codice partendo da elementi di base, se però il codice
+deve essere fatto per applicazioni reali, conviene verificare prima
+se non esiste già qualcosa, in questo caso una funzione di libreria
+che fornisca già il risultato desiderato
+*/
+
+
 $risultato = array();
 
 foreach ($conteggio as $key => $value) {
-    if ($value > 1)
+    if ($value > 1) {
         $risultato[] = $key;
+    }
 }
 
 echo json_encode($risultato);
